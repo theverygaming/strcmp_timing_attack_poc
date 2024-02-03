@@ -5,7 +5,7 @@ int test_secret(const char *guess) {
     
     int result;
     
-    for(unsigned long i = 0; i < 1000000; i++) {
+    for(unsigned long i = 0; i < 100000000; i++) {
         result = strcmp_unsafe(secret, guess);
         //result = strcmp_safe(secret, guess);
     }
