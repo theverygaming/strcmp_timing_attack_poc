@@ -1,3 +1,2 @@
-/.vscode
-timingpoc
-*.o
+/timingpoc
+/*.o
